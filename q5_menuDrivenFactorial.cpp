@@ -6,7 +6,7 @@ int main(int argc, char const *argv[])
 {
     int fact = 1;
     int number;
-    int choise;
+    char choice;
     do
     {
         cout<<"Enter the number between 1 to 10:- ";
@@ -20,10 +20,10 @@ int main(int argc, char const *argv[])
             cout<<"Factorial of "<<number<<" is "<<fact<<endl;
         }
 
-        cout<<"Do you want to try again\n Enter 1 to continue:- ";
-        cin>>choise;
+        cout<<"Do you want to try again\n Enter y to continue:- ";
+        cin>>choice;
 
-    } while (choise == 1);
+    }while(choice == 'y'||choice == 'Y');
     
     return 0;
 }
