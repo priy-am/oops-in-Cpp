@@ -20,6 +20,6 @@ int main(int argc, char const *argv[])
     cout<<"Enter the number upto you want the series:- ";
     cin>>numb;
     int answer = fibonacci(numb);
-    cout<<answer<<endl;
+    cout<<endl;
     return 0;
 }
